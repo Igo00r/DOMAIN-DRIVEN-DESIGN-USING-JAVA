@@ -1,0 +1,91 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Página-1" id="eYf31DGVHzoZ6VPruazo">
+    <mxGraphModel dx="271" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="Produto" id="Fvb496OEOWa-Si084Op0-7">
+          <mxCell style="swimlane;fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="1058" y="210" width="300" height="180" as="geometry">
+              <mxRectangle x="260" y="310" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="Fvb496OEOWa-Si084Op0-8" value="- nome: String&lt;br&gt;&lt;div&gt;- double: preco&lt;/div&gt;&lt;div&gt;- descricao: String&lt;/div&gt;&lt;div&gt;- quantidade: int&lt;/div&gt;&lt;div&gt;- caracteristicas: ArrayList&amp;lt;Caracteristas&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Fvb496OEOWa-Si084Op0-7" vertex="1">
+          <mxGeometry y="26" width="300" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Fvb496OEOWa-Si084Op0-7" vertex="1">
+          <mxGeometry y="120" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-31" value="+ AdicionarEstoque (int quantidade): void&lt;div&gt;+ RemoverEstoque (int quantidade): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Fvb496OEOWa-Si084Op0-7" vertex="1">
+          <mxGeometry y="128" width="300" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-11" value="ProdutoFIsico" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="450" width="160" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-12" value="- peso: double&lt;br&gt;- dimensao : Dimensao" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Fvb496OEOWa-Si084Op0-11" vertex="1">
+          <mxGeometry y="30" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Fvb496OEOWa-Si084Op0-11" vertex="1">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-19" value="ProdutoDigital&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="450" width="140" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-20" value="- linkDownload: String&lt;div&gt;-formatoArquivo: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Fvb496OEOWa-Si084Op0-19" vertex="1">
+          <mxGeometry y="26" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Fvb496OEOWa-Si084Op0-19" vertex="1">
+          <mxGeometry y="80" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-23" value="Caracteristica" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1534" y="260" width="120" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-24" value="- nome: String&lt;div&gt;- descricao: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Fvb496OEOWa-Si084Op0-23" vertex="1">
+          <mxGeometry y="26" width="120" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Fvb496OEOWa-Si084Op0-23" vertex="1">
+          <mxGeometry y="90" width="120" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-35" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1.006;exitY=0.449;exitDx=0;exitDy=0;entryX=0.012;entryY=0.19;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="Fvb496OEOWa-Si084Op0-8" target="Fvb496OEOWa-Si084Op0-24" edge="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="1428" y="310" as="sourcePoint" />
+            <mxPoint x="1588" y="310" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-36" value="Dimensao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="827" y="570" width="150" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-37" value="&lt;div&gt;- altura: double&lt;/div&gt;&lt;div&gt;- largura: double&lt;/div&gt;&lt;div&gt;- comprimento: double&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Fvb496OEOWa-Si084Op0-36" vertex="1">
+          <mxGeometry y="26" width="150" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-47" value="+ CalcularVolume: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Fvb496OEOWa-Si084Op0-36" vertex="1">
+          <mxGeometry y="90" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-38" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Fvb496OEOWa-Si084Op0-36" vertex="1">
+          <mxGeometry y="120" width="150" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-43" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.29;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Fvb496OEOWa-Si084Op0-11" target="Fvb496OEOWa-Si084Op0-31" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1178" y="400" as="sourcePoint" />
+            <mxPoint x="1318" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fvb496OEOWa-Si084Op0-44" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.79;entryY=1.047;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.182;exitY=-0.021;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Fvb496OEOWa-Si084Op0-19" target="Fvb496OEOWa-Si084Op0-31" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1338" y="520" as="sourcePoint" />
+            <mxPoint x="1498" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfcrzEmLza3FLIgM8txE-1" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=-0.025;entryY=0.64;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fvb496OEOWa-Si084Op0-37" target="Fvb496OEOWa-Si084Op0-12">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="724" y="650" as="sourcePoint" />
+            <mxPoint x="884" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
